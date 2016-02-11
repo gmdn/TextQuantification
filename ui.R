@@ -70,8 +70,8 @@ shinyUI(fluidPage(
 
       sliderInput("q",
                   "Intercept (q):",
-                  min = -200,
-                  max = 200,
+                  min = -100,
+                  max = 300,
                   value = 0,
                   step = 10,
                   width = "100%"),
